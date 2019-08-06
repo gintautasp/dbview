@@ -2,7 +2,19 @@
 
 	$params = array( 
 	
-		 'busena' =>  array ( 'current' => _cfihod ( $_GET, 'busena', 'visos' ), 'values' => array ( 'visos' => 'visos', 'ivykdytas' => 'įvykdytas', 'anuliuotas' => 'anuliuotas', 'uzsakyta' => 'užsakytas' ) )
+		 'busena' =>  array ( 
+		 
+			'current' => _cfihod ( $_GET, 'busena', 'visos' )
+			
+			, 'values' => array ( 
+			
+				'visos' => 'visos'
+				, 'ivykdytas' => 'įvykdytas'
+				, 'anuliuotas' => 'anuliuotas'
+				, 'uzsakyta' => 'užsakytas' 
+			) 
+		)
+		
 		, 'diena' => _cfihod ( $_GET, 'diena', date ( "Y-m-d" ) )
 	); 	
 
@@ -36,6 +48,14 @@
 				1
 			AND
 			    '" . $params [ 'diena' ] ."' = SUBSTRING( `uzsakymai`.`laikas_uzsakymo`,1, 10 )
+			AND
+			   " . ( 
+					$params [ 'busena'  ] [ 'current' ] == 'visos'
+				?
+					"1"
+				:
+					" '" . $params [ 'busena'  ] [ 'current' ] . "'=`uzsakymai`.`busena`"
+			) . "
 				";
 			
 	$names_fields = array ( 
