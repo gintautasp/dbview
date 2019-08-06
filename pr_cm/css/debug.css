@@ -1,0 +1,45 @@
+
+	#t_debug {
+		
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.dbg_header {
+		
+		color: white;
+		font-weight: bold;
+		background-color: Coral;
+		padding: 20px 10px 5px 10px;
+		text-align: center;
+	}
+	
+	.dbg_label {
+		
+		color: white;
+		font-weight: bold;
+		background-color: DarkOrange;
+		padding: 5px 10px 5px 10px;
+		text-align: center;
+		border-top: 1px solid black;
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+	}
+	
+	.dbg_value {
+		
+		white-space: pre-line;
+		padding: 4px 10px 4px 40px;
+		line-height: 137%;
+		font-family: ‘Lucida Console’, Monaco, monospace;
+		color: green;
+		border-bottom: 1px solid black;
+		border-left: 1px solid black;
+		border-right: 1px solid black;		
+	}
+	
+	.dbg_error {
+		
+		padding: 4px 10px 4px 40px;		
+		color: red;
+	}

@@ -1,0 +1,72 @@
+	#rec_info {
+		
+/*		width: 960px;
+		border: 1px solid SaddleBrown;
+		background-color: Wheat; */
+		padding: 5px 5px 5px 5px; 
+		margin-bottom: 10px;
+	}
+	.details {
+		
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: auto;
+	}
+	.label {
+		
+		padding: 4px;
+		background-color:  PeachPuff;
+		border-color: #FFBDA0;
+		border-style: outset;
+		border-width: 1px;		
+		text-align: center;
+	}
+	.info_first_label {
+		
+		text-align: right;
+		padding: 2px 4px 2px 4px;
+		width: 80px;
+	}	
+	.txt_val, .dat_val, .nmr_val, .lnk_val, .flg_val {
+		
+		background-color: BlanchedAlmond;
+		border-color: BlanchedAlmond;
+		border-style: outset;
+		padding: 5px 12px 5px 7px;		
+		border-width: 1px;
+	}
+	.txt_val {
+		color: DarkSlateGray;
+	}
+	.dat_val {
+		color: Olive;
+	}
+	.flg_val, .flg_ok {
+		
+		color:  ForestGreen;
+	}
+	.flg_not_ok {
+		
+		color: Crimson; 
+	}
+	.nmr_val {
+		
+		color: OliveDrab;
+	}
+	.lnk_val {
+		
+		text-align: center;
+	}
+	.lnk_val a {
+		
+		color: MidnightBlue;
+/*		font-weight: bold;
+		letter-spacing: 2px; */
+		text-decoration: none;
+	}
+	.lnk_val a:hover {
+		
+		text-decoration: underline;
+	}	
+	
+	

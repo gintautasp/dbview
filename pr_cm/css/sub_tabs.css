@@ -1,0 +1,30 @@
+		.sub_inactive {
+			background-color: cornsilk;	
+			margin-left: -15px;
+			border: 1px solid LightGrey ! important;
+			display: none;
+		}
+		.sub_active {
+			background-color: oldlace;
+			border-left: 1px solid black;
+			border-top: 1px solid LightGrey ! important;
+			border-left: 1px solid LightGrey ! important;			
+			border-right: 1px solid LightGrey ! important;			
+			border-bottom: 1px solid oldlace;	
+			margin-left: 5px;		
+		}
+		.sub_tab {
+			width: 940px;
+			padding: 10px 10px 10px 10px;
+			margin-left: 10px;
+			background-color: oldlace;
+			border: 1px solid oldlace;
+			border-top: 1px solid LightGrey; 
+			border-left: 1px solid LightGrey;
+			border-radius: 10px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;			
+			-webkit-box-shadow: 3px 2px 2px rgba(50, 50, 53, 0.5);
+			-moz-box-shadow:    3px 2px 2px rgba(50, 50, 53, 0.5);
+			box-shadow:         3px 2px 2px rgba(50, 50, 53, 0.5);			
+		}

@@ -1,0 +1,29 @@
+	.sep_form {
+		
+		background-color:  PeachPuff;
+		border-color: #FFBDA0;
+		border-style: ridge;
+		text-align: center;		
+		padding: 8px;
+		width: 320px;
+		float: right;
+		clear: right;
+	}
+	#control {
+		
+		position: fixed;
+		top: 10px;
+		margin-right: 10px; 
+		margin-left: 960px;
+		box-shadow: 10px 10px 5px #888888;	
+		z-index: 10000;
+	}
+	#control table {
+		
+		width: 100%;
+	}
+	#control table td {
+		
+		text-align: left;
+		padding: 2px 2px 2px 3px;
+	}	
